@@ -11,8 +11,11 @@ Every term or phrase found in a document will be entered into the index by the i
 
 # Considerations before using full-text search
 No matter which database you are using, before implementing a full-text search solution, you will have to take these considerations into mind.
-• Necessary feature -You may improve text search by giving your database a full-text index. You may still require extra capabilities like auto-complete recommendations, synonym search, or custom scoring for pertinent results..
+
+• Necessary feature -You may improve text search by giving your database a full-text index. You may still require extra capabilities like auto-complete recommendations, synonym search, or custom scoring for pertinent results.
+
 • Architectural complexity- Your architecture will become more complex as a result of the additional software you used to query two different sources and manage separate systems.
+
 • Costs-Whether a solution is built in-house or uses a third-party tool, additional charges are to be expected.
 
 # Apache Lucene
