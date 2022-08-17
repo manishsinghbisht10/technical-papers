@@ -1,4 +1,4 @@
-# FULL TEXT SEARCh
+# FULL TEXT SEARCH
 
 # What Does Full-Text Search Mean?
 
