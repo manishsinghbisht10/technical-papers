@@ -1,6 +1,6 @@
 # full-text-Search
 
-What Does Full-Text Search Mean?
+# What Does Full-Text Search Mean?
 
 A full-text search is a thorough form of searching that matches each word in the search request with each word in the database or document. The full-text search approach is widely used by web search engines and document editing software in capabilities for searching a text database either on the internet or on a computer's local drive; it enables users to find a word or phrase anywhere in the database or document.
 
