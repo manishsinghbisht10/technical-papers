@@ -10,13 +10,14 @@ However, the challenge of full-text search is frequently split into two tasks: i
 Every term or phrase found in a document will be entered into the index by the indexer, who may also mark its location within the text. Stop words that are both common and lack sufficient significance to be helpful in searching (such as "the" and "and") are often ignored by the indexer. Additionally, some indexers use language-specific stemming on the terms they are indexing. The terms "drives," "drove," and "driven," for instance, will all be listed in the index under the single concept word "drive."
 
 # Considerations before using full-text search
+
 No matter which database you are using, before implementing a full-text search solution, you will have to take these considerations into mind.
 
-• Necessary feature -You may improve text search by giving your database a full-text index. You may still require extra capabilities like auto-complete recommendations, synonym search, or custom scoring for pertinent results.
+- Necessary feature -You may improve text search by giving your database a full-text index. You may still require extra capabilities like auto-complete    recommendations, synonym search, or custom scoring for pertinent results.
 
-• Architectural complexity- Your architecture will become more complex as a result of the additional software you used to query two different sources and manage separate systems.
+- Architectural complexity- Your architecture will become more complex as a result of the additional software you used to query two different sources and manage separate systems.
 
-• Costs-Whether a solution is built in-house or uses a third-party tool, additional charges are to be expected.
+- Costs-Whether a solution is built in-house or uses a third-party tool, additional charges are to be expected.
 
 # Apache Lucene
 
@@ -30,6 +31,7 @@ Despite being appropriate for any application that needs complete text indexing 
 The Apache Lucene search function is provided by Solr, an open-source search platform developed in the Lucene Java library.
 It has been a staple of the search engine market for nearly ten years; it is a tested product with a sizable and diverse user base. Automatic load balancing, distributed reindexing, failover, and recovery queries are all features offered by Solr.
 It can develop into a highly dependable, scalable, fault-tolerant search engine if properly designed and managed. Solr is utilized by a number of Internet behemoths, like Netflix, eBay, Instagram, and Amazon (Cloud Search), since it can index and search numerous webpages.
+
 # The list of key features includes:
 1.	Full-text search 
 2.	Highlight 
