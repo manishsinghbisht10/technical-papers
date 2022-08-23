@@ -31,7 +31,7 @@ The Apache Lucene search function is provided by Solr, an open-source search pla
 It has been a staple of the search engine market for nearly ten years; it is a tested product with a sizable and diverse user base. Automatic load balancing, distributed reindexing, failover, and recovery queries are all features offered by Solr.
 It can develop into a highly dependable, scalable, fault-tolerant search engine if properly designed and managed. Solr is utilized by a number of Internet behemoths, like Netflix, eBay, Instagram, and Amazon (Cloud Search), since it can index and search numerous webpages.
 
-### The list of key features includes:
+## The list of key features includes:
 1.	Full-text search 
 2.	Highlight 
 3.	Multi-array Search 
@@ -47,7 +47,7 @@ It offers a supported multi-tenant, distributed full-text search engine, HTTP we
 Indexes in distributed search engines can be split up into smaller parts, and each part may include numerous copies. A fragment may exist on one or more Elasticsearch nodes. Additionally serving as a coordinator, its engine assigns tasks to the appropriate pieces.
 Scalability of searches in Elasticsearch is close to real-time. Multi-tenant is one of its primary characteristics.
 
-### The list of key features includes: 
+## The list of key features includes: 
 1. Distributed Search 
 2. Multi-lease period  
 3. A string of Analyzers 
